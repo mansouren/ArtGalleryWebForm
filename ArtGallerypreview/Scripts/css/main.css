@@ -1,0 +1,107 @@
+BODY {
+	MARGIN: 10px; BACKGROUND-COLOR: #016874
+}
+#menuL {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #00424d ; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#bio {
+	FONT-SIZE: 16px; COLOR: #005566; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#bio A {
+	FONT-SIZE: 16px; COLOR: #005566; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#bio A:hover {
+	FONT-SIZE: 16px; COLOR: #ff4200; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#bio A:visited {
+	FONT-SIZE: 16px; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#bip {
+	FONT-SIZE: 15px; COLOR: #aa93ff; FONT-FAMILY: tahoma; TEXT-DECORATION: none
+}
+#bip A {
+	FONT-SIZE: 15px; COLOR: #bb93ff; FONT-FAMILY: tahoma; TEXT-DECORATION: none
+}
+#bip A:hover {
+	FONT-SIZE: 15px; COLOR: #Ffc086; FONT-FAMILY: tahoma; TEXT-DECORATION: none
+}
+#bip A:visited {
+	FONT-SIZE: 15px; FONT-FAMILY: tahoma; TEXT-DECORATION: none
+}
+#bot {
+	FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+#col {
+	FONT-SIZE: 35px; COLOR: #FF0000; FONT-FAMILY: IranNastaliq; TEXT-DECORATION: none
+}
+#col A {
+	FONT-SIZE: 35px; COLOR: #fff288; FONT-FAMILY: IranNastaliq; TEXT-DECORATION: none
+}
+#col A:hover {
+	FONT-SIZE: 35px; COLOR: #ff0000; FONT-FAMILY: IranNastaliq; TEXT-DECORATION: none
+}
+#col A:visited {
+	FONT-SIZE: 35px; FONT-FAMILY: IranNastaliq; TEXT-DECORATION: none
+}
+
+#coll {
+	FONT-SIZE: 20px; COLOR: #ff4000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#coll A {
+	FONT-SIZE: 20px; COLOR: #ff4000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#coll A:hover {
+	FONT-SIZE: 20px; COLOR: #ff8600; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#coll A:visited {
+	FONT-SIZE: 20px; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+
+#menuL A {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #f49f04; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#menuL A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #fcd256; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#menuL A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#menuT {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #f49f04; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#menuT A {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #f49f04; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#menuT A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #fcd256; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#menuT A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#menuR {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #fcd256; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#menuR A {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #fcd256; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#menuR A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #f49f04; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+#menuR A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+
+ 
+ @font-face{ font-family: Allegro;
+    src:url(/Fonts/ALLEGRO_1.ttf);
+    src:url(/Fonts/ALLEGRO_1.eot);
+    src:url(/Fonts/ALLEGRO_1.woff);
+}
+
+
+
+ @font-face{ font-family: IranNastaliq;
+    src:url(/Fonts/IranNastaliq.ttf);
+    src:url(/Fonts/IranNastaliq.eot);
+    src:url(/Fonts/IranNastaliq.woff);
+}

@@ -1,0 +1,14 @@
+id : mahnazsh 
+
+pass :  tO4zJgCV0L
+
+New Pass:mahnaz1342
+
+
+sql server :
+
+Userid:Mahnaz
+
+Password:123321
+
+datasource:64.62.132.3

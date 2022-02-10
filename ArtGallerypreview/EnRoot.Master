@@ -1,0 +1,154 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EnRoot.master.cs" Inherits="ArtGallerypreview.EnRoot" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Language" content="en-us"/>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+<meta name="keywords" content="Mahnaz Sharif Askari"/>
+<meta content="MSHTML 5.00.2614.3500" name="GENERATOR"/>
+<link href="~/Scripts/css/main.css" type="text/css" rel="stylesheet" runat="server"/>
+
+ <link id="Link1" runat="server" href="~/Scripts/css/jquery.lightbox-0.5.css" rel="stylesheet"
+  type="text/css" />
+<title>Mahnaz Sharif Askari</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+     .dlGalleryTable
+
+    {
+
+        border:double 1px #D9D9D9;
+        
+        width:150px;
+        border-spacing:30px;
+
+        text-align:left;
+
+    }
+    </style>
+        
+</head>
+<body style="background-color:#016874 ; margin-left:0; margin-right:0; margin-bottom:0; margin-top:10; direction:rtl;" >
+    
+    <form id="form1" runat="server">
+
+   <asp:ScriptManager ID="ScriptManager1" runat="server">
+        <Scripts>
+            <asp:ScriptReference Path="~/Scripts/jquery-1.4.1.min.js" />
+            <asp:ScriptReference Path="~/Scripts/jquery.lightbox-0.5.min.js" />
+            
+        </Scripts>
+    </asp:ScriptManager>
+
+<div align="center">
+	<table border="0" width="1170" cellspacing="0" cellpadding="0">
+		<tr>
+			<td>
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" valign="top" align="left">
+        <map name="FrontPageMap0" id="PersianSite">
+		<area shape="rect" coords="629, 67, 764, 130" href="FaBiography.aspx" alt="PersianSite"/></map>
+        
+		<img border="0" src="../images/cartop.jpg" width="913" height="157" usemap="#FrontPageMap0" alt="Cartop"/></td>
+		<td rowspan="2" bgcolor="#FFFFFF" valign="top">
+					<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+
+					<td align="left" valign="top" colspan="2">
+					<img border="0" src="../images/logo.jpg" width="258" height="290" alt="logo"/></td>
+				</tr>
+				<tr>
+					<td align="left" valign="top" bgcolor="#FFFFFF">
+					<img border="0" src="../images/ca1.jpg" width="117" height="353" alt="ca1"/></td>
+					<td>
+					<table border="0" width="100%" cellspacing="0" cellpadding="0">
+						<tr>
+							<td align="left">
+							<a href="Biography.aspx" runat="server">
+							<img border="0" src="/images/bio.jpg" width="141" height="49" alt="Bio"/></a></td>
+						</tr>
+						<tr>
+							<td align="left">
+							<a href="Gallery.aspx" runat="server">
+							<img border="0" src="../images/gallery.jpg" width="141" height="53" alt="Gallery"/></a></td>
+						</tr>
+						<tr>
+							<td align="left">
+							<a href="Contact.aspx" runat="server">
+							<img border="0" src="../images/contact.jpg" width="141" height="51" alt="Contact"/></a></td>
+						</tr>
+						<tr>
+							<td align="left">
+                            <a href="Articles.aspx" runat="server">
+							<img border="0" src="../images/article.jpg" width="141" height="51" alt="Article"/></a>
+							<%--<img border="0" src="images/article-r.gif" width="141" height="51">--%></td>
+						</tr>
+						<tr>
+							<td align="left">
+							<a href="Links.aspx" runat="server">
+							<img border="0" src="../images/link.jpg" width="141" height="50" alt="Link"/></a></td>
+						</tr><tr>
+							<td align="left">
+							<a href="Default.aspx" runat="server">
+							<img border="0" src="../images/home.jpg" width="141" height="54" alt="Home"/></a></td>
+						</tr>
+
+						<tr>
+							<td align="left">
+							<img border="0" src="../images/ca2.jpg" width="141" height="249" alt="Ca2"/></td>
+						</tr>
+						<tr><td width="705">
+						
+						</td></tr>
+					</table>
+					</td>					
+				</tr>
+				
+			</table>
+			</td>
+	</tr>
+	<tr>
+		<td width="207" bgcolor="#FFFFFF" valign="top">
+		<img border="0" src="../images/carve.jpg" width="207" height="690" alt="Carve"/></td>
+		<td bgcolor="#FFFFFF" valign="top">
+		<table border="0" width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td align="left">
+				<img border="0" src="../images/l.jpg" width="23" height="59" alt="1"/></td>
+			</tr>
+			<tr>
+		     <td align="left" height="90" valign="bottom" >
+
+          <div style="width:700px">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+      
+        
+        </asp:ContentPlaceHolder>
+        </div>
+				    
+            </td>
+			</tr>
+			
+				</table>
+		</td>
+	</tr>
+</table>
+
+			</td>
+		</tr>
+	</table>
+
+</div>
+
+
+
+    
+    </form>
+</body>
+</html>
